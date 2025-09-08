@@ -99,7 +99,7 @@ public class PlaneController : MonoBehaviour
         {
             Allcount += plane.Probability;
         }
-        Debug.Log(Allcount);
+        //Debug.Log(Allcount);
         int x = UnityEngine.Random.Range(1, Allcount+1);
 
         for(int i = 0; i < planes.Count; i++)
@@ -138,7 +138,7 @@ public class PlaneController : MonoBehaviour
                     Ini.transform.localPosition = new Vector3(-49.618f + x, 1.094f, -16.568f + y);
                     foreach (GameObject obj in objects_)
                     {
-                        if(Vector3.Distance(obj.transform.localPosition, Ini.transform.localPosition)<1f)
+                        if(Vector3.Distance(obj.transform.localPosition, Ini.transform.localPosition)< planes[planecount].sceneObjs[i].Intervaldistance)
                         {
                             Destroy(Ini);
                             break;
@@ -186,10 +186,12 @@ public class SceneObj
     public GameObject Object;
     public int Count;
     public int floatCount;
-    public SceneObj(GameObject _object,int _count,int _floatCount)
+    public float Intervaldistance;
+    public SceneObj(GameObject _object,int _count,int _floatCount,float _intervaldistance)
     {
         this.Object = _object;
         this.Count = _count;
         this.floatCount = _floatCount;
+        this.Intervaldistance = _intervaldistance;
     }
 }

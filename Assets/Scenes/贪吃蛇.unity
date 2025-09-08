@@ -2007,11 +2007,13 @@ MonoBehaviour:
     Probability: 2
     sceneObjs:
     - Object: {fileID: 1934461953624157911, guid: c8f7be7d800801c4e995f6b95faa7ad0, type: 3}
-      Count: 14
+      Count: 18
       floatCount: 3
+      Intervaldistance: 1
     - Object: {fileID: 7010575360806093923, guid: 2dfa499a09698c445ab97df7ab5d9965, type: 3}
-      Count: 5
+      Count: 8
       floatCount: 2
+      Intervaldistance: 2
   CenterPlane: {fileID: 465369345}
   RandomSize: 9.2
 --- !u!1 &1636123563

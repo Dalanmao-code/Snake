@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2022.3.42f1c1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker5
 -projectPath
 D:/UnityProjects/Snake Git
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker5.log
 -srvPort
 60986
 Successfully changed project path to: D:/UnityProjects/Snake Git
@@ -49,15 +49,15 @@ D:/UnityProjects/Snake Git
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4272]  Target information:
+Player connection [35772]  Target information:
 
-Player connection [4272]  * "[IP] 192.168.55.58 [Port] 0 [Flags] 2 [Guid] 3333381534 [EditorId] 3333381534 [Version] 1048832 [Id] WindowsEditor(7,»ÃX2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [35772]  * "[IP] 192.168.55.58 [Port] 0 [Flags] 2 [Guid] 2190399114 [EditorId] 2190399114 [Version] 1048832 [Id] WindowsEditor(7,»ÃX2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [35772] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35772] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 60.13 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.30 ms.
+Refreshing native plugins compatible for Editor in 62.18 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.99 ms.
 Initialize engine version: 2022.3.42f1c1 (d3f79ae33604)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/UnityProjects/Snake Git/Assets
@@ -72,47 +72,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.027927 seconds.
-- Loaded All Assemblies, in  0.526 seconds
+Registered in 0.028735 seconds.
+- Loaded All Assemblies, in  0.453 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2386 ms
+Android Extension - Scanning For ADB Devices 433 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.735 seconds
-Domain Reload Profiling: 3251ms
-	BeginReloadAssembly (198ms)
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (187ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (138ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2735ms)
+	FinalizeReload (771ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2689ms)
+		SetupLoadedEditorAssemblies (725ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2510ms)
+			InitializePlatformSupportModulesInManaged (568ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (121ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,7 +121,7 @@ Domain Reload Profiling: 3251ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.984 seconds
+- Loaded All Assemblies, in  1.039 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -150,47 +150,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.994 seconds
-Domain Reload Profiling: 1954ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.900 seconds
+Domain Reload Profiling: 1916ms
+	BeginReloadAssembly (204ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (657ms)
-		LoadAssemblies (494ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (691ms)
+		LoadAssemblies (542ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (212ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
 			ResolveRequiredComponents (11ms)
-	FinalizeReload (995ms)
+	FinalizeReload (900ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (797ms)
+		SetupLoadedEditorAssemblies (731ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (44ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (427ms)
-			ProcessInitializeOnLoadMethodAttributes (154ms)
-			AfterProcessingInitializeOnLoad (30ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 46.30 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.21 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 39.23 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Unloading 5944 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (0.6 MB). Loaded Objects now: 6385.
-Memory consumption went from 225.7 MB to 225.2 MB.
-Total: 5.295900 ms (FindLiveObjects: 0.581000 ms CreateObjectMapping: 0.208100 ms MarkObjects: 4.219300 ms  DeleteObjects: 0.285800 ms)
+Unloading 88 unused Assets / (0.6 MB). Loaded Objects now: 6387.
+Memory consumption went from 226.2 MB to 225.6 MB.
+Total: 6.006500 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.174200 ms MarkObjects: 5.122000 ms  DeleteObjects: 0.315700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -208,71 +208,108 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7574.529464 seconds.
-  path: Assets/Art
-  artifactKey: Guid(5389d6fe0279e794795779ceee585b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art using Guid(5389d6fe0279e794795779ceee585b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '678d81abf793ceb4fd2b098b345f4c78') in 0.002479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Art/è´ªåƒè›‡/Materials/åœ°æ¿1.mat
-  artifactKey: Guid(0658654e9ce9357469e05e9f18febb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/è´ªåƒè›‡/Materials/åœ°æ¿1.mat using Guid(0658654e9ce9357469e05e9f18febb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 8038.020657 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/prefabs/P_PROP_bottle_04.prefab
+  artifactKey: Guid(5c7cb65fdec6a0140a2f04a921b9c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/prefabs/P_PROP_bottle_04.prefab using Guid(5c7cb65fdec6a0140a2f04a921b9c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '070fe77d46de06df603039fb6ff37c6a') in 0.495516 seconds
+ -> (artifact id: 'bbfc118a7d0726642ac711a8877b652f') in 0.350730 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 30
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001009 seconds.
-  path: Assets/Art/è´ªåƒè›‡/Materials
-  artifactKey: Guid(a87a1dbc843b99947bf9a22a6eea13d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/è´ªåƒè›‡/Materials using Guid(a87a1dbc843b99947bf9a22a6eea13d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '7603f86c436fc1a031646668bd5ecc4a') in 0.000844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Art/è´ªåƒè›‡
-  artifactKey: Guid(863faaa5db6322d4aa817d8fde63652b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/è´ªåƒè›‡ using Guid(863faaa5db6322d4aa817d8fde63652b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'fc4c5f911c613de49e2525258b975688') in 0.000842 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Art/è´ªåƒè›‡/Materials/è›‡å¤´.mat
-  artifactKey: Guid(e63b45ccae91d2e4e9694621cf8028fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/è´ªåƒè›‡/Materials/è›‡å¤´.mat using Guid(e63b45ccae91d2e4e9694621cf8028fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 3.426731 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/2d/textures/T_PROP_food_BC.png
+  artifactKey: Guid(b56e31e0d093c8c4593ef4021c7849ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/2d/textures/T_PROP_food_BC.png using Guid(b56e31e0d093c8c4593ef4021c7849ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'de8dcb580df32b1ac1ca527ebfbcd2f3') in 0.017276 seconds
+ -> (artifact id: '8ec2a1bb30c650481ab85b1acc7e49b1') in 0.074694 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Art/è´ªåƒè›‡/Materials/è›‡çœ¼.mat
-  artifactKey: Guid(4a289727db0903f4c81694d2aca68934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/è´ªåƒè›‡/Materials/è›‡çœ¼.mat using Guid(4a289727db0903f4c81694d2aca68934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/2d/textures/T_wood_03_MTSM.tga
+  artifactKey: Guid(48bb0c3143c1b3f43af3408e07495a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/2d/textures/T_wood_03_MTSM.tga using Guid(48bb0c3143c1b3f43af3408e07495a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '25a476ba3e50c3caa9f1492226978cd9') in 0.013473 seconds
+ -> (artifact id: '0e9e2295017a140c62e33631a479689f') in 0.013223 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Art/è´ªåƒè›‡/Materials/åœ°æ¿.mat
-  artifactKey: Guid(59e8c1b66513a3f4ea8688d9dfa14eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/è´ªåƒè›‡/Materials/åœ°æ¿.mat using Guid(59e8c1b66513a3f4ea8688d9dfa14eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+  Time since last request: 12.253544 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/prefabs/P_PROP_bottle_04.prefab
+  artifactKey: Guid(5c7cb65fdec6a0140a2f04a921b9c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/prefabs/P_PROP_bottle_04.prefab using Guid(5c7cb65fdec6a0140a2f04a921b9c0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: 'cc5c4953d19aa27b156a4ef244228a32') in 0.012423 seconds
+ -> (artifact id: 'b09c4c5f16e68c0c48ed33819b59b16c') in 0.382320 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/prefabs/P_PROP_bottle_08.prefab
+  artifactKey: Guid(582eedd7eee3fed4bba03e2eb99af041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/prefabs/P_PROP_bottle_08.prefab using Guid(582eedd7eee3fed4bba03e2eb99af041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8b7af0bd70645a9b1d274619f1875e06') in 0.021211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.519505 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/materials/M_wood.mat
+  artifactKey: Guid(272ffa660146f714395f8cbaf7c45115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/materials/M_wood.mat using Guid(272ffa660146f714395f8cbaf7c45115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c253de2f921e31e604b22c2ac153e62e') in 0.457305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.066661 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_bottle_04.fbx
+  artifactKey: Guid(fc1173d65c270ee46bf8ee18e882957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_bottle_04.fbx using Guid(fc1173d65c270ee46bf8ee18e882957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5bfa9d769615d21daf30ea371df7192c') in 0.109367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_bottle_05.fbx
+  artifactKey: Guid(9be8c100ab00d85499f719fa322dbde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_bottle_05.fbx using Guid(9be8c100ab00d85499f719fa322dbde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '00e2c5e8965211e09914089df9eee0f3') in 0.024713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.936153 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_crate_02.fbx
+  artifactKey: Guid(0db0837b1bbf0c444adbb454664cc8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_crate_02.fbx using Guid(0db0837b1bbf0c444adbb454664cc8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd5602fb0a553e1513e12b2bf34d76505') in 0.041000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.966271 seconds.
+  path: Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_food_bread_02.fbx
+  artifactKey: Guid(35701b325fbf8e24f9dd4fed87b03082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Modles/Foods/Fantastic Food Pack/3d/SM_PROP_food_bread_02.fbx using Guid(35701b325fbf8e24f9dd4fed87b03082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9c710f81eecd3994d1145daa0553c555') in 0.031752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ÓÉÓÚÏß³ÌÍË³ö»òÓ¦ÓÃ³ÌĞòÇëÇó£¬ÒÑÖĞÖ¹ I/O ²Ù×÷¡£
 AssetImportWorker is now disconnected from the server
